@@ -1,0 +1,66 @@
+body{
+    align-items: center;
+    background: url(https://i.postimg.cc/BvDWnZHC/snapchat-goku.png) no-repeat;
+    background-size: cover;
+    display: flex;
+    margin: 0;
+    min-height: 100vh;
+    padding: 0;
+}
+main{
+    background-color: rgba(30, 30, 30, 0.8);
+    border-radius: 20px;
+    margin: auto;
+    padding: 50px;
+    width: 600px;
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+header figure{
+    background-image: url(https://i.postimg.cc/T38mYNZJ/snapchat-dolares.webp);
+    border-radius: 50%;
+    display: flex;
+    height: 420px;
+    justify-content: center;
+    margin: 0 auto;
+    width: 420px;
+}
+header img{
+    background-size: cover;
+    display: flex;
+}
+article{
+    color: #ffffff;
+    text-align: center;
+}
+article h1{
+    font-size: 35px;
+}
+article .skills{
+    font-size: 25px;
+}
+article .tipo{
+    font-size: 20px;
+}
+article .tipo::before, article .tipo::after{
+    content: '♥';
+}
+footer{
+    display: flex;
+    justify-content: center;
+}
+.footer_redes{
+    display: flex;
+    justify-content: space-between;
+    min-width: 272px;
+    max-width: 544px;
+}
+footer .icono_img{
+    height: 32px;
+    transition: transform 0.6s ease;
+}
+footer .icono_img:hover{
+    transform: scale(1.15);
+}
